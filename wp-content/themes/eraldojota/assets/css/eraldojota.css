@@ -1,0 +1,16 @@
+.text-justify{
+    text-align: justify;
+}
+#services iframe{
+    width:100%;
+    height:20em;
+}
+#services ul{
+    width: 50%;
+    list-style: none;
+    margin: 0 auto;
+}
+#services ul li a{
+    font-size: 18px;
+    font-weight: 600;
+}

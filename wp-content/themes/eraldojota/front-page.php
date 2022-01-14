@@ -1,383 +1,325 @@
 <?php get_header(); ?>
 <main id="main">
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="<?php echo SITEPATH; ?>assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
-                        <p><span>Eraldo Jota</span></p>                        
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Skill</p>
-                    <span>HTML</span> <span class="pull-right">85%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>CSS3</span> <span class="pull-right">75%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>PHP</span> <span class="pull-right">50%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="<?php echo SITEPATH; ?>assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                      <span>&emsp;Eraldo Jota</span>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Biografia
-                      </h5>
-                    </div>
-                    <p class="lead">
-                      Natural de Arapiraca Estado de Alagoas, Eraldo é formado pela ordem dos músicos do Brasil, em violão e guitarra. Fez vários cursos livres de música e se formou em harmonia, improvisação, teoria elementar da música, leitura musical. Se tornou professor de música, inclusive em duas escolas, nas quais estudou e voltou como Professor e por muitos anos lecionou guitarra e violão estilos clássicos e popular. Foi músico da noite onde tocou e cantou em várias casas noturnas seus variáveis estilos musicais como MPB, Sertanejo raiz, pop-rock e etc. Participou como
-                    </p>
-                    <p class="lead">
-                      Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                      porttitor volutpat. Vestibulum
-                      ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-                    </p>
-                    <p class="lead">
-                      Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                      Nulla porttitor accumsan
-                      tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                    </p>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Biografia
+                    </h5>
                   </div>
+                  <p class="lead text-justify">
+                    Natural de Arapiraca Estado de Alagoas, Eraldo é formado pela ordem dos músicos do Brasil, em violão e guitarra. Fez vários cursos livres de música e se formou em harmonia, improvisação, teoria elementar da música, leitura musical. Se tornou professor de música, inclusive em duas escolas, nas quais estudou e voltou como Professor e por muitos anos lecionou guitarra e violão estilos clássicos e popular. Foi músico da noite onde tocou e cantou em várias casas noturnas seus variáveis estilos musicais como MPB, Sertanejo raiz, pop-rock.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section><!-- End About Section -->
+    </div>
+  </section><!-- End About Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services-mf pt-5 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Lançamentos
-              </h3>
-              <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Web Design</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Web Development</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Photography</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Responsive Design</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Graphic Design</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Marketing Services</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services-mf pt-5 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Lançamentos
+            </h3>
+            <p class="subtitle-a">
+              Últimos Vídeos:
+            </p>
+            <div class="line-mf"></div>
           </div>
         </div>
       </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Counter Section ======= -->
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container position-relative">
-        <div class="row">
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-check"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">WORKS COMPLETED</span>
-              </div>
-            </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="service-box">
+            <iframe src="https://www.youtube.com/embed/videoseries?list=PL82Z5fdK4hwHeYbMiovpTrfbZF_aQ5t1X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">YEARS OF EXPERIENCE</span>
-              </div>
-            </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-box">
+            <iframe src="https://www.youtube.com/embed/videoseries?list=PL82Z5fdK4hwFrbfDSLqJ0LlVXtPfuu0M_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-people"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">TOTAL CLIENTS</span>
-              </div>
-            </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-box">
+            <iframe src="https://www.youtube.com/embed/videoseries?list=PL82Z5fdK4hwGoHVwvmDwMIXDX6aSMc57x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-award"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">AWARD WON</span>
-              </div>
-            </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-box">
+            <iframe src="https://www.youtube.com/embed/videoseries?list=PL82Z5fdK4hwE5TCcs_fJNVLwTRRA0noGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
-    </div><!-- End Counter Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="work" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Portfolio
-              </h3>
-              <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="line-mf"></div>
-            </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Lançamentos
+            </h3>
+            <p class="subtitle-a">
+              Últimas Músicas:
+            </p>
+            <div class="line-mf"></div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="<?php echo SITEPATH; ?>assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="<?php echo SITEPATH; ?>assets/img/work-1.jpg" alt="" class="img-fluid">
-                </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <ul>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/a-arte-de-viver/" class="art_music-link" title="A Arte de Viver">
+                <i class="bx bx-music"></i> A Arte de Viver
               </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Lorem impsum dolor</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/a-viagem/" class="art_music-link" title="A Viagem">
+                <i class="bx bx-music"></i> A Viagem
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/agni/" class="art_music-link" title="Agni">
+                <i class="bx bx-music"></i> Agni
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/alem-da-realidade/" class="art_music-link" title="Além da Realidade">
+                <i class="bx bx-music"></i> Além da Realidade
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/andarilho/letra/" class="art_music-link" title="Andarilho">
+                <i class="bx bx-music"></i> Andarilho
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/brihaspati-mantra/letra/" class="art_music-link" title="Brihaspati Mantra">
+                <i class="bx bx-music"></i> Brihaspati Mantra
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/ciencia-de-viver/" class="art_music-link" title="Ciência de Viver">
+                <i class="bx bx-music"></i> Ciência de Viver
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/devamatri-mantra/letra/" class="art_music-link" title="Devamatri Mantra">
+                <i class="bx bx-music"></i> Devamatri Mantra
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/dimensao-oculta/" class="art_music-link" title="Dimensão Oculta">
+                <i class="bx bx-music"></i> Dimensão Oculta
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/esperanca/letra/" class="art_music-link" title="Esperança">
+                <i class="bx bx-music"></i> Esperança
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/gayatri-mantra/letra/" class="art_music-link" title="Gayatri Mantra">
+                <i class="bx bx-music"></i> Gayatri Mantra
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/govinda-mantra/" class="art_music-link" title="Govinda Mantra">
+                <i class="bx bx-music"></i> Govinda Mantra
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/indrani-mantra/letra/" class="art_music-link" title="Indrani Mantra">
+                <i class="bx bx-music"></i> Indrani Mantra
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/kali-mantra/letra/" class="art_music-link" title="Kali Mantra">
+                <i class="bx bx-music"></i> Kali Mantra
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/krishna-mantra/letra/" class="art_music-link" title="Krishna Mantra">
+                <i class="bx bx-music"></i> Krishna Mantra
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/maha-lakshmi-mantra/letra/" class="art_music-link" title="Maha Lakshmi Mantra">
+                <i class="bx bx-music"></i> Maha Lakshmi Mantra
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/maruts-mantra/letra/" class="art_music-link" title="Maruts Mantra">
+                <i class="bx bx-music"></i> Maruts Mantra
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/mitrah-varuna-mantra/letra/" class="art_music-link" title="Mitrah Varuna Mantra">
+                <i class="bx bx-music"></i> Mitrah Varuna Mantra
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/natureza-encantada/letra/" class="art_music-link" title="Natureza Encantada">
+                <i class="bx bx-music"></i> Natureza Encantada
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/papel-timbrado/" class="art_music-link" title="Papel Timbrado">
+                <i class="bx bx-music"></i> Papel Timbrado
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/rama-mantra/letra/" class="art_music-link" title="Rama Mantra">
+                <i class="bx bx-music"></i> Rama Mantra
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/retratos-da-vida/" class="art_music-link" title="Retratos da Vida">
+                <i class="bx bx-music"></i> Retratos da Vida
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/sem-limites/" class="art_music-link" title="Sem Limites">
+                <i class="bx bx-music"></i> Sem Limites
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/seres-magicos/" class="art_music-link" title="Seres Mágicos">
+                <i class="bx bx-music"></i> Seres Mágicos
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/trimurt-mantra/letra/" class="art_music-link" title="Trimurt Mantra">
+                <i class="bx bx-music"></i> Trimurt Mantra
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/tudo-e-sutil/" class="art_music-link" title="Tudo É Sutil">
+                <i class="bx bx-music"></i> Tudo É Sutil
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/tudo-nasce-na-mente/letra/" class="art_music-link" title="Tudo Nasce na Mente">
+                <i class="bx bx-music"></i> Tudo Nasce na Mente
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/utopia/" class="art_music-link" title="Utopia">
+                <i class="bx bx-music"></i> Utopia
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/vaivasvata-mantra/letra/" class="art_music-link" title="Vaivasvata Mantra">
+                <i class="bx bx-music"></i> Vaivasvata Mantra
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.cifraclub.com.br/eraldo-jota/vasus-mantra/letra/" class="art_music-link" title="Vasus Mantra">
+                <i class="bx bx-music"></i> Vasus Mantra
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Galeria de imagens
+            </h3>
+            <p class="subtitle-a">
+              Fotos, Eventos, Apresentações, Outros.
+            </p>
+            <div class="line-mf"></div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="<?php echo SITEPATH; ?>assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="<?php echo SITEPATH; ?>assets/img/work-2.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Loreda Cuno Nere</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="<?php echo SITEPATH; ?>assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="<?php echo SITEPATH; ?>assets/img/work-1.jpg" alt="" class="img-fluid">
               </div>
-            </div>
+            </a>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="<?php echo SITEPATH; ?>assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="<?php echo SITEPATH; ?>assets/img/work-3.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Mavrito Lana Dere</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="<?php echo SITEPATH; ?>assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="<?php echo SITEPATH; ?>assets/img/work-2.jpg" alt="" class="img-fluid">
               </div>
-            </div>
+            </a>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="<?php echo SITEPATH; ?>assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="<?php echo SITEPATH; ?>assets/img/work-4.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Bindo Laro Cado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="<?php echo SITEPATH; ?>assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="<?php echo SITEPATH; ?>assets/img/work-3.jpg" alt="" class="img-fluid">
               </div>
-            </div>
+            </a>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="<?php echo SITEPATH; ?>assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="<?php echo SITEPATH; ?>assets/img/work-5.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Lena Mado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="<?php echo SITEPATH; ?>assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="<?php echo SITEPATH; ?>assets/img/work-4.jpg" alt="" class="img-fluid">
               </div>
-            </div>
+            </a>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="<?php echo SITEPATH; ?>assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="<?php echo SITEPATH; ?>assets/img/work-6.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="<?php echo SITEPATH; ?>assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="<?php echo SITEPATH; ?>assets/img/work-5.jpg" alt="" class="img-fluid">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="<?php echo SITEPATH; ?>assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="<?php echo SITEPATH; ?>assets/img/work-6.jpg" alt="" class="img-fluid">
+              </div>
+            </a>
+            <!--<div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
                     <h2 class="w-title">Studio Big Bang</h2>
@@ -391,256 +333,90 @@
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
+              </div>-->
           </div>
-
         </div>
+
       </div>
-    </section><!-- End Portfolio Section -->
+    </div>
+  </section><!-- End Portfolio Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="<?php echo SITEPATH; ?>assets/img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Xavi Alonso</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
-                      </p>
-                    </div>
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Fale comigo
+                    </h5>
                   </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="<?php echo SITEPATH; ?>assets/img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Marta Socrate</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-
-            <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
-          
-        </div> -->
-          </div>
-        </div>
-      </div>
-    </div><!-- End Testimonials Section -->
-
-    <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Blog
-              </h3>
-              <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="<?php echo SITEPATH; ?>assets/img/post-1.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Travel</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="<?php echo SITEPATH; ?>assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="<?php echo SITEPATH; ?>assets/img/post-2.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Web Design</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="<?php echo SITEPATH; ?>assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="<?php echo SITEPATH; ?>assets/img/post-3.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Web Design</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="<?php echo SITEPATH; ?>assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Blog Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Send Message Us
-                      </h5>
-                    </div>
-                    <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                            </div>
-                          </div>
-                          <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                  <div>
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" required>
                           </div>
                         </div>
-                      </form>
-                    </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" required>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12 text-center my-3">
+                          <div class="loading">Loading</div>
+                          <div class="error-message"></div>
+                          <div class="sent-message">Seu message has been sent. Thank you!</div>
+                        </div>
+                        <div class="col-md-12 text-center">
+                          <button type="submit" class="button button-a button-big button-rouded">Enviar</button>
+                        </div>
+                      </div>
+                    </form>
                   </div>
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
-                        Get in Touch
-                      </h5>
-                    </div>
-                    <div class="more-info">
-                      <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                        expedita aperiam aliquid at.
-                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                        mollitia inventore?
-                      </p>
-                      <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                        <li><span class="bi bi-phone"></span> (617) 557-0089</li>
-                        <li><span class="bi bi-envelope"></span> contact@example.com</li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
-                      </ul>
-                    </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Minhas redes
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead text-justify">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
+                      expedita aperiam aliquid at.
+                      Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
+                      mollitia inventore?
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="bi bi-geo-alt"></span> Rua Meu endereço, 9999</li>
+                      <li><span class="bi bi-phone"></span> (xx) 99999999999</li>
+                      <li><span class="bi bi-envelope"></span> contact@example.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -648,7 +424,8 @@
           </div>
         </div>
       </div>
-    </section><!-- End Contact Section -->
+    </div>
+  </section><!-- End Contact Section -->
 
-  </main><!-- End #main -->
+</main><!-- End #main -->
 <?php get_footer(); ?>
