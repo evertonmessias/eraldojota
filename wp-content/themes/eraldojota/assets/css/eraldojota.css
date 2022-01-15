@@ -1,5 +1,13 @@
+/**
+* Eraldo
+*/
+
 .text-justify{
     text-align: justify;
+}
+#about img{
+    position: relative;
+    width: 100%;
 }
 #services iframe{
     width:100%;

@@ -7,29 +7,30 @@
         <div class="col-sm-12">
           <div class="box-shadow-full">
             <div class="row">
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-sm-6 col-md-5">
-                    <div class="about-img">
-                      <img src="<?php echo SITEPATH; ?>assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                      <span>&emsp;Eraldo Jota</span>
+              <?php
+              $loop = new WP_Query(array('name' => 'biografia'));
+              while ($loop->have_posts()) {
+                $loop->the_post();
+              ?>
+                <div class="col-md-6">
+                  <img src="<?php the_post_thumbnail_url('full'); ?>" class="img-fluid rounded b-shadow-a" alt="">
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        <?php echo get_the_title(); ?>
+                      </h5>
                     </div>
+                    <p class="lead text-justify">
+                      <?php echo get_the_content(); ?>
+                    </p>
                   </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="about-me pt-4 pt-md-0">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Biografia
-                    </h5>
-                  </div>
-                  <p class="lead text-justify">
-                    Natural de Arapiraca Estado de Alagoas, Eraldo é formado pela ordem dos músicos do Brasil, em violão e guitarra. Fez vários cursos livres de música e se formou em harmonia, improvisação, teoria elementar da música, leitura musical. Se tornou professor de música, inclusive em duas escolas, nas quais estudou e voltou como Professor e por muitos anos lecionou guitarra e violão estilos clássicos e popular. Foi músico da noite onde tocou e cantou em várias casas noturnas seus variáveis estilos musicais como MPB, Sertanejo raiz, pop-rock.
-                  </p>
-                </div>
-              </div>
             </div>
+          <?php
+              }
+          ?>
           </div>
         </div>
       </div>
@@ -267,76 +268,21 @@
         </div>
       </div>
       <div class="row">
+      <?php
+              $loop = new WP_Query(array('category_name' => 'galeria'));
+              while ($loop->have_posts()) {
+                $loop->the_post();
+              ?>
         <div class="col-md-4">
           <div class="work-box">
-            <a href="<?php echo SITEPATH; ?>assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+            <a href="<?php the_post_thumbnail_url('full'); ?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
               <div class="work-img">
-                <img src="<?php echo SITEPATH; ?>assets/img/work-1.jpg" alt="" class="img-fluid">
+                <img src="<?php the_post_thumbnail_url('full'); ?>" alt="" class="img-fluid">
               </div>
             </a>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="<?php echo SITEPATH; ?>assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-              <div class="work-img">
-                <img src="<?php echo SITEPATH; ?>assets/img/work-2.jpg" alt="" class="img-fluid">
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="<?php echo SITEPATH; ?>assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-              <div class="work-img">
-                <img src="<?php echo SITEPATH; ?>assets/img/work-3.jpg" alt="" class="img-fluid">
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="<?php echo SITEPATH; ?>assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-              <div class="work-img">
-                <img src="<?php echo SITEPATH; ?>assets/img/work-4.jpg" alt="" class="img-fluid">
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="<?php echo SITEPATH; ?>assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-              <div class="work-img">
-                <img src="<?php echo SITEPATH; ?>assets/img/work-5.jpg" alt="" class="img-fluid">
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="<?php echo SITEPATH; ?>assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-              <div class="work-img">
-                <img src="<?php echo SITEPATH; ?>assets/img/work-6.jpg" alt="" class="img-fluid">
-              </div>
-            </a>
-            <!--<div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Big Bang</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>-->
-          </div>
-        </div>
-
+        </div> 
+        <?php } ?>       
       </div>
     </div>
   </section><!-- End Portfolio Section -->
