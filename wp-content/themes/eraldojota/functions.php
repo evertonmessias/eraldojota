@@ -1,6 +1,6 @@
 <?php
 
-//Functions eraldojota
+//Functions Eraldo
 
 //*************URL theme [ get_template_directory_uri() ]
 define('SITEPATH', '/wp-content/themes/eraldojota/');
@@ -18,10 +18,20 @@ add_filter('login_redirect', 'admin_default_page');
 function tf_wp_admin_login_logo()
 { ?>
   <style type="text/css">
-    #login h1 a {
-      background-image: url('<?php echo get_option('agenda_input_2'); ?>');
+    #login{
+      margin-top: 100px !important;
+      background-color: #fff;
+      padding: 0% 0 0 !important;
+      padding: 20px !important;
+      box-shadow: 0 0 15px rgb(0,0,0,0.8) !important;
+      border-radius: 5px;
     }
-
+    #login h1 a {
+      background-image: url('<?php echo SITEPATH; ?>assets/img/logo.png');
+      background-size: 150px;
+      width: 150px;
+      height: 150px;
+    }
     #login .galogin-powered {
       display: none;
     }
@@ -79,7 +89,7 @@ add_theme_support('post-thumbnails', array('post'));
 //************* Add Menu
 function register_my_menu()
 {
-  register_nav_menu('eraldojota-nav', __('eraldojota NAV'));
+  register_nav_menu('eraldo-nav', __('eraldo NAV'));
 }
 add_action('init', 'register_my_menu');
 
@@ -91,3 +101,13 @@ function my_li_id_handler($id, $item, $args)
   return $id;
 }
 add_filter('nav_menu_item_id', 'my_li_id_handler', 10, 3);
+
+//************* Removes rich text editor
+//add_filter( 'user_can_richedit' , '__return_false');
+
+//************* Add custom action
+function mensagem()
+{
+    echo "OIIIIIIII"; 
+}
+add_action( 'mensagem', 'mensagem' );

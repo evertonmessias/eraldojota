@@ -3,16 +3,10 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>Eraldo Jota</strong>. All Rights Reserved</p>
-            <div class="credits">
-              <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Eraldo Jota
-            -->
-              Designed by <a target="_blank" href="https://portfolio.evertonm.com">EvM</a>
-            </div>
+            <p>
+              <a href="/wp-admin"><strong>Eraldo Jota</strong></a><br>            
+              <small>Designed by <a target="_blank" href="https://portfolio.evertonm.com">EvM</a></small>
+            </p>            
           </div>
         </div>
       </div>

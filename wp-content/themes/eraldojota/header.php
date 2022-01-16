@@ -30,7 +30,7 @@
 <body>
 
 	<!-- ======= Header ======= -->
-	<header id="header" class="fixed-top">
+	<header id="header" class="fixed-top <?php if(!is_home())echo 'header-post'; ?>">
 		<div class="container d-flex align-items-center justify-content-between">
 
 			<h1 class="logo"><a href="/">Eraldo Jota</a></h1>
@@ -39,29 +39,14 @@
 
 			<nav id="navbar" class="navbar">
 				<ul>
-					<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-					<li><a class="nav-link scrollto" href="#about">Biografia</a></li>
-					<li><a class="nav-link scrollto" href="#services">Lançamentos</a></li>
-					<li><a class="nav-link scrollto " href="#portfolio">Galeria</a></li>
-					<li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+					<li><a class="nav-link scrollto active" href="<?php if(!is_home())echo '/'; ?>#hero">Home</a></li>
+					<li><a class="nav-link scrollto" href="<?php if(!is_home())echo '/'; ?>#about">Biografia</a></li>
+					<li><a class="nav-link scrollto" href="<?php if(!is_home())echo '/'; ?>#services">Lançamentos</a></li>
+					<li><a class="nav-link scrollto " href="<?php if(!is_home())echo '/'; ?>#portfolio">Galeria</a></li>
+					<li><a class="nav-link scrollto" href="<?php if(!is_home())echo '/'; ?>#contact">Contato</a></li>
 				</ul>
 				<i class="bi bi-list mobile-nav-toggle"></i>
 			</nav><!-- .navbar -->
 
 		</div>
 	</header><!-- End Header -->
-
-	<!-- ======= Hero Section ======= -->
-	<div id="hero" class="hero route bg-image" style="background-image: url(<?php echo SITEPATH; ?>assets/img/hero-bg.jpg)">
-		<div class="overlay-itro"></div>
-		<div class="hero-content display-table">
-			<div class="table-cell">
-				<div class="container">
-					<!--<p class="display-6 color-d">Hello, world!</p>-->
-					<h1 class="hero-title mb-4">Eraldo Jota</h1>
-					<p class="hero-subtitle"><span class="typed" data-typed-items="Músico, Autor, Intérprete, Professor"></span></p>
-					<!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-				</div>
-			</div>
-		</div>
-	</div><!-- End Hero Section -->
