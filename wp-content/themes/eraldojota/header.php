@@ -10,7 +10,7 @@
 	<meta content="" name="keywords">
 
 	<!-- Favicons -->
-	<link href="<?php echo SITEPATH; ?>assets/img/favicon.png" rel="icon">
+	<link href="<?php echo SITEPATH; ?>assets/img/logo.png" rel="icon">
 	<link href="<?php echo SITEPATH; ?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
 	<!-- Vendor CSS Files -->

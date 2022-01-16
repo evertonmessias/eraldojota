@@ -141,7 +141,7 @@
   </section><!-- End Portfolio Section -->
 
   <!-- ======= Contact Section ======= -->
-  <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+  <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(<?php echo SITEPATH; ?>assets/img/overlay-bg.jpg)">
     <div class="overlay-mf"></div>
     <div class="container">
       <div class="row">

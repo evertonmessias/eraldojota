@@ -682,6 +682,11 @@ a:hover {
   font-weight: 600;
   font-size: 3rem;
 }
+@media (max-width: 768px) {
+  .hero {    
+    background-position: 90% 0%;
+  }
+}
 @media (min-width: 768px) {
   .hero .hero-title {
     font-size: 4.5rem;
