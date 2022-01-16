@@ -7,15 +7,14 @@
 
 			<div class="section-title">
 				<hr>
-				<h1>POSTS</h1><br>
+				<h1>GALERIA</h1><br>
 			</div>
 
 			<div class="row">
 
 				<?php
 				$args = array(
-					'post_type' => 'post',
-					'posts_per_page' => 100,
+					'category_name' => 'galeria',
 					'order' => 'DESC'
 				);
 				$loop = new WP_Query($args);

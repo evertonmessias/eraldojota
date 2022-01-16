@@ -41,10 +41,11 @@
                     </p>
                   </div>
                 </div>
-            </div>
-          <?php
+              <?php
               }
-          ?>
+              ?>
+            </div>
+
           </div>
         </div>
       </div>
@@ -58,18 +59,22 @@
         <div class="col-sm-12">
           <div class="title-box text-center">
             <h3 class="title-a">
-              Lançamentos
+              Mídia
             </h3>
-            <p class="subtitle-a">
-              <strong>Últimos Vídeos</strong>
-            </p>
+            <hr>
+            <h4 class="subtitle-a">Vídeos</h4>
             <div class="line-mf"></div>
           </div>
         </div>
       </div>
       <div class="row">
         <?php
-        $loop = new WP_Query(array('category_name' => 'videos'));
+        $argsV = array(
+          'category_name' => 'videos',
+          'posts_per_page' => 2,
+          'order' => 'DESC'
+        );
+        $loop = new WP_Query($argsV);
         while ($loop->have_posts()) {
           $loop->the_post();
         ?>
@@ -77,29 +82,65 @@
             <?php echo get_the_content(); ?>
           </div>
         <?php } ?>
+        <a class="btn-mais" href="/videos">Veja Mais</a>
       </div>
       <br>
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">
-            <h3 class="title-a">
-              Lançamentos
-            </h3>
-            <p class="subtitle-a">
-              <strong>Últimas Músicas</strong>
-            </p>
+            <br><br><hr>
+            <h4 class="subtitle-a">Músicas</h4>
             <div class="line-mf"></div>
           </div>
         </div>
       </div>
       <div class="row">
         <?php
-        $loop = new WP_Query(array('category_name' => 'musicas'));
+        $argsM = array(
+          'category_name' => 'musicas',
+          'posts_per_page' => 4,
+          'order' => 'DESC'
+        );
+        $loop = new WP_Query($argsM);
         while ($loop->have_posts()) {
           $loop->the_post();
-          echo get_the_content();
-        }
         ?>
+          <div class="col-md-3 musicas">
+            <?php echo get_the_content(); ?>
+          </div>
+        <?php } ?>
+        <a class="btn-mais" href="/musicas">Veja Mais</a>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <br><br><hr>
+            <h4 class="subtitle-a">Textos</h4>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <?php
+        $argsM = array(
+          'category_name' => 'textos',
+          'posts_per_page' => 4,
+          'order' => 'DESC'
+        );
+        $loop = new WP_Query($argsM);
+        while ($loop->have_posts()) {
+          $loop->the_post();
+        ?>
+          <div class="col-md-3 textos">
+            <a href="<?php echo get_the_permalink(); ?>">
+              <i class="bx bx-file"></i><br>
+              <?php echo get_the_title(); ?>
+            </a>
+          </div>
+        <?php } ?>
+        <br>
+        <a class="btn-mais" href="/textos">Veja Mais</a>
       </div>
     </div>
   </section><!-- End Services Section -->
@@ -110,6 +151,7 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">
+            <hr>
             <h3 class="title-a">
               Galeria de imagens
             </h3>
@@ -122,7 +164,12 @@
       </div>
       <div class="row">
         <?php
-        $loop = new WP_Query(array('category_name' => 'galeria'));
+        $argsG = array(
+          'category_name' => 'galeria',
+          'posts_per_page' => 6,
+          'order' => 'DESC'
+        );
+        $loop = new WP_Query($argsG);
         while ($loop->have_posts()) {
           $loop->the_post();
         ?>
@@ -136,6 +183,7 @@
             </div>
           </div>
         <?php } ?>
+        <a class="btn-mais" href="/galeria">Veja Mais</a>
       </div>
     </div>
   </section><!-- End Portfolio Section -->
