@@ -14,6 +14,11 @@
 .text-justify{
     text-align: justify;
 }
+
+#header .logo a,#hero .hero-title,#hero .hero-subtitle{
+    font-family: 'Monotype Corsiva';
+}
+
 #about img{
     position: relative;
     width: 100%;
