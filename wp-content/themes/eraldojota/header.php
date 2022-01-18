@@ -30,18 +30,24 @@
 <body>
 
 	<!-- ======= Header ======= -->
-	<header id="header" class="fixed-top <?php if(!is_home())echo 'header-post'; ?>">
+	<header id="header" class="fixed-top <?php if (!is_home()) echo 'header-post'; ?>">
 		<div class="container d-flex align-items-center justify-content-between">
 
 			<h1 class="logo"><a href="/">Eraldo Jota</a></h1>
-			
+
 			<nav id="navbar" class="navbar">
 				<ul>
-					<li><a class="nav-link scrollto active" href="<?php if(!is_home())echo '/'; ?>#hero">Home</a></li>
-					<li><a class="nav-link scrollto" href="<?php if(!is_home())echo '/'; ?>#about">Biografia</a></li>
-					<li><a class="nav-link scrollto" href="<?php if(!is_home())echo '/'; ?>#services">Mídia</a></li>
-					<li><a class="nav-link scrollto " href="<?php if(!is_home())echo '/'; ?>#portfolio">Galeria</a></li>
-					<li><a class="nav-link scrollto" href="<?php if(!is_home())echo '/'; ?>#contact">Contato</a></li>
+					<li><a class="nav-link scrollto active" href="<?php if (!is_home()) echo '/'; ?>#hero">Home</a></li>
+					<li><a class="nav-link scrollto" href="<?php if (!is_home()) echo '/'; ?>#about">Biografia</a></li>
+					<li class="dropdown"><a class="nav-link scrollto" href="<?php if (!is_home()) echo '/'; ?>#services"><span>Mídia</span> <i class="bi bi-chevron-down"></i></a>
+						<ul>
+							<li><a href="<?php if (!is_home()) echo '/'; ?>#videos">Vídeos</a></li>
+							<li><a href="<?php if (!is_home()) echo '/'; ?>#musicas">Músicas</a></li>
+							<li><a href="<?php if (!is_home()) echo '/'; ?>#poesias">Poesias</a></li>
+						</ul>
+					</li>
+					<li><a class="nav-link scrollto " href="<?php if (!is_home()) echo '/'; ?>#portfolio">Galeria</a></li>
+					<li><a class="nav-link scrollto" href="<?php if (!is_home()) echo '/'; ?>#contact">Contato</a></li>
 				</ul>
 				<i class="bi bi-list mobile-nav-toggle"></i>
 			</nav><!-- .navbar -->

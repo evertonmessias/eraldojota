@@ -14,7 +14,9 @@
 .text-justify{
     text-align: justify;
 }
-
+#hero .hero-title{
+    font-size: 100px;
+}
 #header .logo a,#hero .hero-title,#hero .hero-subtitle{
     font-family: 'Monotype Corsiva';
 }

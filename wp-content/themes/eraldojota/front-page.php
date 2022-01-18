@@ -62,7 +62,7 @@
               Mídia
             </h3>
             <hr>
-            <h4 class="subtitle-a">Vídeos</h4>
+            <h4 id="videos" class="subtitle-a">Vídeos</h4>
             <div class="line-mf"></div>
           </div>
         </div>
@@ -89,7 +89,7 @@
         <div class="col-sm-12">
           <div class="title-box text-center">
             <br><br><hr>
-            <h4 class="subtitle-a">Músicas</h4>
+            <h4 id="musicas" class="subtitle-a">Músicas</h4>
             <div class="line-mf"></div>
           </div>
         </div>
@@ -116,7 +116,7 @@
         <div class="col-sm-12">
           <div class="title-box text-center">
             <br><br><hr>
-            <h4 class="subtitle-a">Textos</h4>
+            <h4 id="poesias" class="subtitle-a">Poesias</h4>
             <div class="line-mf"></div>
           </div>
         </div>
