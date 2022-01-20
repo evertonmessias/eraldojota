@@ -53,7 +53,7 @@
   </section><!-- End About Section -->
 
   <!-- ======= Services Section ======= -->
-  <section id="services" class="services-mf pt-5 route">
+  <section id="services" class="services-mf pt-5 route gallery">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -88,7 +88,8 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">
-            <br><br><hr>
+            <br><br>
+            <hr>
             <h4 id="musicas" class="subtitle-a">Músicas</h4>
             <div class="line-mf"></div>
           </div>
@@ -115,7 +116,8 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">
-            <br><br><hr>
+            <br><br>
+            <hr>
             <h4 id="poesias" class="subtitle-a">Poesias</h4>
             <div class="line-mf"></div>
           </div>
@@ -142,8 +144,43 @@
         <br>
         <a class="btn-mais" href="/textos">Veja Mais</a>
       </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <br><br>
+            <hr>
+            <h4 id="discografia" class="subtitle-a">Discografia</h4>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+      <div class="gallery-slider swiper">
+        <div class="swiper-wrapper align-items-center">
+
+        <?php
+        $argsM = array(
+          'category_name' => 'discografia',
+          'posts_per_page' => 5,
+          'order' => 'DESC'
+        );
+        $loop = new WP_Query($argsM);
+        while ($loop->have_posts()) {
+          $loop->the_post();
+        ?>
+          <div class="swiper-slide"><a class="gallery-lightbox" href="<?php the_post_thumbnail_url('full'); ?>"><img src="<?php the_post_thumbnail_url('full'); ?>" class="img-fluid" title="<?php echo get_the_title(); ?>"></a></div>         
+        <?php } ?>
+
+        
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      </div>
+
     </div>
-  </section><!-- End Services Section -->
+  </section><!-- End Services Section -->     
+
 
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio-mf sect-pt4 route">
@@ -177,7 +214,7 @@
             <div class="work-box">
               <a href="<?php the_post_thumbnail_url('full'); ?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="<?php the_post_thumbnail_url('full'); ?>" alt="" class="img-fluid">
+                  <img src="<?php the_post_thumbnail_url('full'); ?>" title="<?php echo get_the_title(); ?>" class="img-fluid">
                 </div>
               </a>
             </div>

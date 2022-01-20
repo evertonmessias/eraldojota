@@ -46,6 +46,38 @@
 #services .textos i{
     font-size: 50px;
 }
+
+#services .swiper-slide{
+    height: auto;
+}
+#services .gallery {
+    overflow: hidden;
+  }
+  #services .gallery .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  #services .gallery .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+  }
+  #services .gallery .swiper-slide-active {
+    text-align: center;
+  }
+  @media (min-width: 992px) {
+    #services .gallery .swiper-wrapper {
+      padding: 40px 0;
+    }
+    #services .gallery .swiper-slide-active {
+      padding: 4px;
+      background: #fff;
+      z-index: 1;
+      transform: scale(1.2);
+      margin-top: 10px;
+    }
+  }
 .btn-mais{
     display: block;
     position: relative;
