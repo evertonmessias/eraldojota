@@ -44,6 +44,7 @@
 							<li><a href="<?php if (!is_home()) echo '/'; ?>#videos">Vídeos</a></li>
 							<li><a href="<?php if (!is_home()) echo '/'; ?>#musicas">Músicas</a></li>
 							<li><a href="<?php if (!is_home()) echo '/'; ?>#poesias">Poesias</a></li>
+							<li><a href="<?php if (!is_home()) echo '/'; ?>#discografia">Discografia</a></li>
 						</ul>
 					</li>
 					<li><a class="nav-link scrollto " href="<?php if (!is_home()) echo '/'; ?>#portfolio">Galeria</a></li>
