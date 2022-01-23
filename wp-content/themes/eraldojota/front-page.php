@@ -127,7 +127,7 @@
         <?php
         $argsM = array(
           'category_name' => 'textos',
-          'posts_per_page' => 4,
+          'posts_per_page' => 100,
           'order' => 'DESC'
         );
         $loop = new WP_Query($argsM);
