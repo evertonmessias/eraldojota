@@ -7,7 +7,7 @@
 
 			<div class="section-title">
 				<hr>
-				<h1>TEXTOS</h1><br>
+				<h1>Poesias</h1><br>
 			</div>
 			<br>
 			<div class="row">
